@@ -1,6 +1,6 @@
 ---
 title: 'PDFの変換例'
-author: '@p1ass'
+author: '@3rdJCG'
 date: \the\year/\the\month/\the\day
 ---
 
