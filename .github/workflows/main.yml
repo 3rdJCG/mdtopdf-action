@@ -21,10 +21,32 @@ jobs:
       uses: ./
       with:
         working_directory: test
+        mode: mdtopdf
+        root_file: test.md
+    - name: Generate TeX documents
+      uses: ./
+      with:
+        working_directory: test
+        mode: mdtotex
+        root_file: test.md
+    - name: Generate HTML documents
+      uses: ./
+      with:
+        working_directory: test
+        mode: mdtohtml
+        root_file: test.md
+    - name: Generate DOCX documents
+      uses: ./
+      with:
+        working_directory: test
+        mode: mdtodocx
         root_file: test.md
     - name: Commit files
       run: |
         git add test/test.pdf
+        git add test/test.tex
+        git add test/test.html
+        git add test/test.docx
         git config --local user.email "3rdJCG@gmail.com"
         git config --local user.name "3rdJCG"
         git commit -m "Generate test.pdf" -a
