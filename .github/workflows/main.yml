@@ -21,7 +21,7 @@ jobs:
       uses: ./
       with:
         working_directory: test
-        root_file: main.md
+        root_file: example.md
     - name: Commit files
       run: |
         git add test/main.pdf
