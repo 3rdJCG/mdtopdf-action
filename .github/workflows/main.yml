@@ -49,7 +49,7 @@ jobs:
         git add test/test.docx
         git config --local user.email "3rdJCG@gmail.com"
         git config --local user.name "3rdJCG"
-        git commit -m "Generate test.pdf" -a
+        git commit -m "Generate by GitHub Actions" -a
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
