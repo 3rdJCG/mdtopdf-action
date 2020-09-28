@@ -27,3 +27,21 @@ A project to use [mdftopdf](https://github.com/p1ass/mdtopdf) with GitHub Action
         root_file: main.md
         mode: mdtotex
     ```
+    If you want to get a HTML file, set it up like this
+    ```yaml
+    - uses: 3rdJCG/mdtopdf-action
+      with:
+        root_file: main.md
+        mode: mdtohtml
+    ```
+    If you want to get a Docx file, set it up like this
+    ```yaml
+    - uses: 3rdJCG/mdtopdf-action
+      with:
+        root_file: main.md
+        mode: mdtodocx
+    ```
+    
+## License
+
+MIT
