@@ -1,4 +1,4 @@
-FROM 3rdjcg/latex-ci-notojp:latest
+FROM plass/mdtopdf
 
 WORKDIR /root
 
