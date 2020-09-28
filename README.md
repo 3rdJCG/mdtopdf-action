@@ -1,4 +1,4 @@
-# mdtopdf-action
+# mdtopdf-action ![test](https://github.com/3rdJCG/mdtopdf-action/workflows/test/badge.svg)
 A project to use [mdftopdf](https://github.com/p1ass/mdtopdf) with GitHub Actions.
 
 ## Inputs
